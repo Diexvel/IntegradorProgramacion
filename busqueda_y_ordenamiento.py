@@ -188,9 +188,7 @@ def ejecutar_pruebas():
     for tamano_desc, inv_original in inventarios_a_probar.items():
         print(f"\n--- Probando con {tamano_desc} ---")
         for nombre_algo, algo_func in ordenamientos.items():
-           
-
-           
+            
             # Cada algoritmo recibe una COPIA PROFUNDA NUEVA del inventario original no ordenado.
             inventario_para_prueba = copy.deepcopy(inv_original) 
             
