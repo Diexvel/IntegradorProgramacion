@@ -1,6 +1,6 @@
 import time
 import random
-import copy # Para hacer copias del inventario antes de ordenar
+import copy 
 
 
 # Diccionario para almacenar categorías y nombres de ejemplo para generar datos
@@ -19,7 +19,7 @@ def generar_inventario_aleatorio(cantidad):
     for i in range(cantidad):
         id_prod = f"PROD{i:05d}"
         categoria_prod = random.choice(categorias)
-        nombre_prod = random.choice(DATOS_PRODUCTOS_EJEMPLO[categoria_prod]) + f"_{i}" # Añadir sufijo para unicidad visual
+        nombre_prod = random.choice(DATOS_PRODUCTOS_EJEMPLO[categoria_prod]) + f"_{i}" 
         precio_prod = round(random.uniform(1.0, 500.0), 2)
         
         productos_generados.append({
@@ -60,15 +60,14 @@ def busqueda_binaria_por_id(lista_ordenada, id_buscar):
             return producto_medio
         elif id_medio < id_buscar:
             izquierda = medio + 1
-        else: # id_medio > id_buscar
+        else: 
             derecha = medio - 1
-    return None # No encontrado
+    return None 
 
 # --- Algoritmos de Ordenamiento ---
 
 def bubble_sort(lista, clave='precio', reverse=False):
     """Implementación de Bubble Sort."""
-    # NO es necesario deepcopy aquí, ya se hace en la función de prueba
     n = len(lista)
     for i in range(n - 1):
         for j in range(0, n - i - 1):
@@ -81,11 +80,11 @@ def bubble_sort(lista, clave='precio', reverse=False):
             else: # Orden ascendente
                 if val1 > val2:
                     lista[j], lista[j+1] = lista[j+1], lista[j]
-    return lista # Retorna la lista modificada in-place
+    return lista 
 
 def insertion_sort(lista, clave='precio', reverse=False):
     """Implementación de Insertion Sort."""
-    # NO es necesario deepcopy aquí, ya se hace en la función de prueba
+    
     for i in range(1, len(lista)):
         actual = lista[i]
         j = i - 1
@@ -104,7 +103,7 @@ def insertion_sort(lista, clave='precio', reverse=False):
                 else:
                     break
         lista[j+1] = actual
-    return lista # Retorna la lista modificada in-place
+    return lista 
 
 def merge_sort(lista, clave='precio', reverse=False):
     """Implementación de Merge Sort."""
@@ -207,7 +206,7 @@ def ejecutar_pruebas():
     inventario_busqueda = inventario_base_grande 
     
     # Necesitamos una lista ordenada por ID para la búsqueda binaria.
-    # Usamos Timsort (Python's sorted) para preparar esta lista de manera eficiente.
+    # Usamos Timsort  para preparar esta lista de manera eficiente.
     # Es importante que esta lista sea una copia de los datos originales
     inventario_ordenado_por_id = sorted(copy.deepcopy(inventario_busqueda), key=lambda x: x['id_producto'])
     
