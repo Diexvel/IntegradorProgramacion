@@ -1,4 +1,22 @@
-Proyecto: Comparación de Algoritmos de Búsqueda y Ordenamiento en un Sistema de Inventario 
-🚀 Presentación del Tema
 
-Este proyecto se adentra en la implementación y el análisis comparativo de algoritmos fundamentales de búsqueda y ordenamiento. En el mundo de la computación, la eficiencia en cómo manejamos y accedemos a los datos es clave para construir cualquier aplicación que funcione bien. Ya sea organizando una base de datos de clientes, planificando rutas de entrega, o controlando el stock de un almacén, poder ordenar la información de forma lógica y buscar elementos específicos rápidamente es esencial.Para mostrar esto en la práctica, hemos creado un sistema de gestión de inventario simplificado. Este sistema maneja productos con datos básicos como un identificador único (ID), nombre, categoría y precio. Usando este escenario, podemos ver directamente cómo distintos algoritmos se comportan a medida que la cantidad de datos crece, lo que nos ayuda a entender el impacto de su complejidad temporal en el rendimiento real.🎯 Objetivos del ProyectoLos objetivos principales de este proyecto son:Implementar Algoritmos de Ordenamiento: Desarrollar nuestras propias versiones de algoritmos clásicos como Bubble Sort, Insertion Sort, y Merge Sort.Implementar Algoritmos de Búsqueda: Crear versiones de algoritmos de búsqueda como la Búsqueda Lineal y la Búsqueda Binaria.Generar Datos de Prueba: Crear un sistema para generar inventarios de productos aleatorios de diferentes tamaños (pequeños, medianos y grandes), simulando así distintos escenarios de datos.Medir y Comparar Tiempos de Ejecución: Ejecutar cada algoritmo con los inventarios generados y registrar con precisión cuánto tiempo tardan. Esto también incluye comparar nuestras implementaciones con Timsort (el algoritmo de ordenamiento que Python usa por defecto) para tener un punto de referencia de alta eficiencia.Analizar el Rendimiento: Interpretar los tiempos de ejecución obtenidos, explicando por qué algunos algoritmos son más eficientes que otros, basándonos en sus complejidades algorítmicas (notación Big O).Visualizar Resultados: Generar gráficos claros que muestren de forma inmediata las diferencias de rendimiento entre los algoritmos.Documentar el Proceso: Redactar un informe completo (TP) que cubra desde el marco teórico de los algoritmos y sus implementaciones hasta los resultados, el análisis comparativo y las conclusiones finales.
+# Proyecto: Comparación de Algoritmos de Búsqueda y Ordenamiento en un Sistema de Inventario 🚀
+
+## Alumnos: Diego Velardes y Agustin Spinotti
+## Comision: 22
+
+## Presentación
+
+Este proyecto se enfoca en la implementación y el análisis comparativo de algoritmos clásicos de búsqueda y ordenamiento. La forma en que organizamos y accedemos a los datos tiene un impacto directo en el rendimiento de cualquier aplicación. Ya sea al gestionar una base de datos de clientes, planificar entregas o controlar el inventario de un almacén, ordenar eficientemente los datos y buscar información de manera rápida es fundamental.
+
+Para demostrar esto en un entorno práctico, desarrollamos un sistema simplificado de gestión de inventario. Este sistema administra productos con atributos básicos como un identificador único (ID), nombre, categoría y precio. A través de este caso de uso, analizamos cómo distintos algoritmos responden ante diferentes volúmenes de datos, observando cómo su complejidad algorítmica afecta el rendimiento en situaciones reales.
+
+## 🎯 Objetivos del Proyecto
+
+Los principales objetivos de este trabajo son:
+
+- **Implementar algoritmos de ordenamiento:** Desarrollar implementaciones propias de algoritmos como Bubble Sort, Insertion Sort y Merge Sort.
+- **Implementar algoritmos de búsqueda:** Crear versiones funcionales de Búsqueda Lineal y Búsqueda Binaria.
+- **Generar datos de prueba:** Diseñar un sistema que permita generar inventarios aleatorios de productos con distintos tamaños: pequeño, mediano y grande.
+- **Medir y comparar tiempos de ejecución:** Evaluar el rendimiento de cada algoritmo con los inventarios generados y comparar los resultados, incluyendo una comparación con Timsort (el algoritmo por defecto en Python).
+- **Analizar el rendimiento:** Interpretar los resultados obtenidos en base a las complejidades teóricas (notación Big O) y justificar las diferencias de eficiencia entre algoritmos.
+
