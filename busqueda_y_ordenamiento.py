@@ -157,7 +157,7 @@ def ejecutar_pruebas():
     # Tamaños de inventario para las pruebas
     tamano_inventario_pequeno = 100
     tamano_inventario_mediano = 4500
-    tamano_inventario_grande = 5000 
+    tamano_inventario_grande = 15000 
 
     # Generamos los inventarios una sola vez
     print(f"\nPreparando inventario de {tamano_inventario_pequeno} productos...")

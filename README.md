@@ -3,7 +3,7 @@
 
 ## Alumnos: Diego Velardes y Agustin Spinotti
 ## Comision: 22
-
+## Enlance de video : [text](https://drive.google.com/file/d/1HvroqZ7VJ_c7IeWgIAcz9ktrCgbk_cGc/view?usp=drive_link)
 ## Presentación
 
 Este proyecto se enfoca en la implementación y el análisis comparativo de algoritmos clásicos de búsqueda y ordenamiento. La forma en que organizamos y accedemos a los datos tiene un impacto directo en el rendimiento de cualquier aplicación. Ya sea al gestionar una base de datos de clientes, planificar entregas o controlar el inventario de un almacén, ordenar eficientemente los datos y buscar información de manera rápida es fundamental.
